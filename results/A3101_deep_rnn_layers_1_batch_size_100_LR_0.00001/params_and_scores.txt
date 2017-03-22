@@ -1,0 +1,25 @@
+PARAMETERS: 
+name: None
+embedding_size: 32
+data_dir: None
+data_encoding: one_hot
+epochs: 30
+batch_size: 100
+from_file: None
+run_id: A3101_deep_rnn_layers_1_batch_size_100_LR_0.00001
+batch_norm: 1
+save: 0
+model: deep_rnn
+allele: A3101
+tensorboard_verbose: 0
+layer_size: 32
+num_layers: 1
+len: 9
+learning_rate: 1e-05
+cell_size: 32
+cmd: train_test_eval
+SCORES: 
+ 
+Tau: 0.23254 
+F1: 0.69360 
+AUC: 0.66515 

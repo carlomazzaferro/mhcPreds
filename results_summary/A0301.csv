@@ -1,0 +1,6 @@
+Description,KMER,RNN
+run,A0301_kmer_embedding_batch_size60_LR_0.01,A0301_deep_rnn_layers_2_batch_size_40_LR_0.001
+tau,0.53048,0.50583
+f1,0.79815,0.74486
+max_auc,0.89838,0.88362
+avg_auc,0.885955,0.820998

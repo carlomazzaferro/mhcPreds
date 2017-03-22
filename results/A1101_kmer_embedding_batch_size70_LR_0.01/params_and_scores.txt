@@ -1,0 +1,25 @@
+PARAMETERS: 
+tensorboard_verbose: 3
+save: 0
+embedding_size: 32
+data_dir: None
+name: None
+cell_size: 32
+from_file: None
+learning_rate: 0.01
+cmd: train_test_eval
+data_encoding: kmer_embedding
+batch_size: 70
+run_id: A1101_kmer_embedding_batch_size70_LR_0.01
+epochs: 30
+len: 9
+num_layers: 1
+allele: A1101
+model: embedding_rnn
+batch_norm: 1
+layer_size: 32
+SCORES: 
+ 
+Tau: 0.53698 
+F1: 0.79755 
+AUC: 0.90046 
