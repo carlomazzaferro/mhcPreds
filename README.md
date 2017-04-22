@@ -1,5 +1,6 @@
 ## Predicting Protein Binding Affinity With Word Embeddings and Recurrent Neural Networks
 
+** Biorxiv link to paper**: http://biorxiv.org/content/early/2017/04/18/128223.article-metrics
 
 To recreate the results reported, download this repo, navigate to the main directory and run `bash project_results_embedding.sh` and `bash project_results_rnn.sh` . The data is already contained in the /data folder, and the results should pop up on the /results directory. Feel free do delete its current contents if you'd like to re-create them yourself.
 The bash commands will run a variety of models/model parameters and will store each run in the results folder. For more info on the experiments ran, please refer to the paper submission. Then, run `python analyze_results` to create the visualizations and csv summaries.
